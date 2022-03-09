@@ -16,7 +16,8 @@ body {
 }
 
 .phone {
-  width: 320px;
+  width: 300px;
+  height: 520px;
   background: #000;
   border-radius: 30px;
   display: flex;
@@ -34,5 +35,30 @@ body {
 
 .top {
   display: flex;
+  padding: 20px;
   align-items: center;
+  background: lightblue;
+  gap: 10px;
+}
+
+.avatar {
+  border-radius: 50px;
+}
+
+.status {
+  display: block;
+  font-size: 10px;
+}
+
+.chat {
+  font-size: 1rem;
+  padding: 5px;
+}
+
+.chat-receive {
+  text-align: left;
+}
+
+.chat-send {
+  text-align: right;
 }
