@@ -16,9 +16,9 @@ body {
 }
 
 .phone {
-  width: 300px;
-  height: 520px;
-  background: #000;
+  width: 250px;
+  height: 500px;
+  background: hsl(289, 100%, 72%);
   border-radius: 30px;
   display: flex;
   align-items: center;
@@ -28,7 +28,7 @@ body {
 .screen {
   width: calc(100% - 10px);
   height: calc(100% - 10px);
-  background: #ffffff;
+  background: hsl(270, 20%, 96%);
   border-radius: 30px;
   overflow: hidden !important;
 }
@@ -51,14 +51,53 @@ body {
 }
 
 .chat {
-  font-size: 1rem;
-  padding: 5px;
+  font-size: 0.5rem;
+}
+
+.img-container {
+  display: flex;
+  justify-content: right;
+  padding: 10px 5px 0 0;
+  gap: 5px;
+}
+
+.dog-img {
+  border-radius: 10px;
 }
 
 .chat-receive {
   text-align: left;
+  max-width: 20ch;
+  background: lightpink;
+  padding: 8px;
+  border-radius: 10px;
+  margin: 10px auto 0 5px;
 }
 
 .chat-send {
-  text-align: right;
+  max-width: 20ch;
+  margin: 10px 5px 0 auto;
+  background: lightcoral;
+  padding: 8px;
+  border-radius: 10px;
+}
+
+.walk-price {
+  position: relative;
+}
+
+.price-time {
+  max-width: 25ch;
+  background: lightpink;
+  padding: 8px;
+  border-radius: 10px;
+  margin: 10px auto 0 5px;
+}
+
+.price {
+  position: absolute;
+  font: 0.8rem bolder;
+  left: 90px;
+  top: 6px;
+  color: hsl(0, 0%, 100%);
 }
