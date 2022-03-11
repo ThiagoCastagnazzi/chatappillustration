@@ -4,21 +4,30 @@ body {
   text-decoration: none;
   list-style: none;
   margin: 0;
-  background-color: #f5f5f5;
+  background: #f2f2f2;
   font: sans-serif;
+}
+
+svg {
+  display: block;
+  position: absolute;
+  margin: 0;
+  overflow: hidden;
 }
 
 #content {
   padding: 1rem;
   display: flex;
   align-items: center;
-  justify-content: center;
+  margin-top: 20px;
+  margin-left: 250px;
+  position: absolute;
 }
 
 .phone {
   width: 250px;
   height: 500px;
-  background: hsl(289, 100%, 72%);
+  background: hsl(0, 0%, 100%);
   border-radius: 30px;
   display: flex;
   align-items: center;
@@ -26,7 +35,7 @@ body {
 }
 
 .screen {
-  width: calc(100% - 10px);
+  width: calc(100% - 15px);
   height: calc(100% - 10px);
   background: hsl(270, 20%, 96%);
   border-radius: 30px;
@@ -37,7 +46,13 @@ body {
   display: flex;
   padding: 20px;
   align-items: center;
-  background: lightblue;
+  background: linear-gradient(
+    rgba(191, 64, 255, 1) 0%,
+    rgba(138, 75, 208, 1) 83%,
+    rgba(255, 238, 255, 1) 83%,
+    rgba(250, 250, 250, 1) 100%
+  );
+  border-radius: 10px;
   gap: 10px;
 }
 
@@ -68,10 +83,11 @@ body {
 .chat-receive {
   text-align: left;
   max-width: 20ch;
-  background: lightpink;
+  background: hsl(206, 6%, 79%);
   padding: 8px;
   border-radius: 10px;
   margin: 10px auto 0 5px;
+  color: hsl(276, 55%, 52%);
 }
 
 .chat-send {
@@ -83,21 +99,35 @@ body {
 }
 
 .walk-price {
-  position: relative;
-}
-
-.price-time {
+  display: flex;
+  gap: 10px;
   max-width: 25ch;
-  background: lightpink;
-  padding: 8px;
+  background: linear-gradient(
+    rgba(191, 64, 255, 1) 0%,
+    rgba(138, 75, 208, 1) 83%
+  );
   border-radius: 10px;
   margin: 10px auto 0 5px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
 }
 
 .price {
-  position: absolute;
   font: 0.8rem bolder;
   left: 90px;
   top: 6px;
   color: hsl(0, 0%, 100%);
+}
+
+.send {
+  display: flex;
+  align-self: center;
+  padding: 20px 0 0 20px;
+}
+
+.button {
+  background-color: white;
+  border-radius: 10px;
+  border: none;
 }
