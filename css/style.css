@@ -140,11 +140,12 @@ body {
   margin: 10px auto 0 5px;
   align-items: center;
   justify-content: space-between;
-  padding: 5px;
+  padding: 8px;
 }
 
 .price {
-  font: 0.8rem bolder;
+  font-size: 0.8rem;
+  font-weight: 600;
   left: 90px;
   top: 6px;
   color: hsl(0, 0%, 100%);
@@ -153,10 +154,11 @@ body {
 .send {
   display: flex;
   align-self: center;
-  padding: 20px 0 0 20px;
+  padding: 13px 0 0 20px;
+  position: relative;
 }
 
-.button {
+.input {
   color: rgba(0, 0, 0, 0.6);
   border-radius: 10px;
   border: none;
@@ -180,4 +182,10 @@ body {
 .text-p {
   font-size: 15px;
   color: hsl(270, 7%, 64%);
+}
+
+.button-send {
+  position: absolute;
+  bottom: 7px;
+  right: 20px;
 }
