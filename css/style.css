@@ -235,6 +235,10 @@ body {
     gap: 30px;
   }
 
+  .phone {
+    margin-left: 0px;
+  }
+
   .text-container {
     text-align: center;
     z-index: 9;
