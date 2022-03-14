@@ -47,7 +47,7 @@ body {
 }
 
 .phone {
-  width: 260px;
+  width: 270px;
   height: 530px;
   background: hsl(0, 0%, 100%);
   border-radius: 30px;
@@ -92,7 +92,7 @@ body {
   position: absolute;
   border-radius: 8px;
   top: -5px;
-  left: 40px;
+  left: 53px;
 }
 
 .avatar {
