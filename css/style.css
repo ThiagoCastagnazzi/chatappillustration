@@ -6,6 +6,7 @@
 body {
   background: white;
   font-family: "Rubik", sans-serif;
+  height: 100vh;
 }
 
 .background1 {
@@ -36,13 +37,11 @@ body {
 }
 
 #content {
-  padding: 1rem;
   max-width: 1440px;
   display: flex;
   margin: 0 auto;
   justify-content: center;
-  align-items: center;
-  align-content: center;
+  height: 100%;
 }
 
 .phone {
@@ -177,6 +176,7 @@ body {
 .send {
   display: flex;
   margin-top: 30px;
+  position: relative;
 }
 
 .input {
@@ -191,6 +191,8 @@ body {
 
 .button-send {
   align-self: center;
+  position: absolute;
+  right: 30px;
 }
 
 .text-container {
@@ -211,7 +213,10 @@ body {
   color: hsl(270, 7%, 64%);
 }
 
-@media (max-width: 850px) {
+@media (max-width: 750px) {
+}
+
+@media (max-width: 750px) {
   #content {
     display: grid;
     grid-template-columns: 1fr;
