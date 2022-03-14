@@ -43,12 +43,11 @@ body {
 #content {
   padding: 1rem;
   display: flex;
-  max-width: 1200ox;
 }
 
 .phone {
-  width: 270px;
-  height: 530px;
+  width: 300px;
+  height: 580px;
   background: hsl(0, 0%, 100%);
   border-radius: 30px;
   display: flex;
@@ -101,7 +100,7 @@ body {
 }
 
 .status {
-  font-size: 10px;
+  font-size: 0.8rem;
 }
 
 .top-top {
