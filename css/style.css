@@ -87,11 +87,11 @@ body {
 
 .top-white {
   width: 150px;
-  height: 15px;
+  height: 18px;
   background: hsl(0, 0%, 100%);
   position: absolute;
   border-radius: 8px;
-  top: 0px;
+  top: -5px;
   left: 40px;
 }
 
@@ -173,6 +173,10 @@ body {
   color: hsl(0, 0%, 100%);
 }
 
+.price-time {
+  color: white;
+}
+
 .send {
   display: flex;
   align-self: center;
@@ -189,7 +193,7 @@ body {
 }
 
 .text-container {
-  max-width: 40ch;
+  max-width: 45ch;
   align-self: center;
   padding-left: 120px;
 }
