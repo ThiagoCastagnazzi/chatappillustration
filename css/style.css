@@ -85,13 +85,13 @@ body {
 }
 
 .top-white {
-  width: 150px;
+  width: 160px;
   height: 18px;
   background: hsl(0, 0%, 100%);
   position: absolute;
   border-radius: 8px;
   top: -5px;
-  left: 53px;
+  left: 64px;
 }
 
 .avatar {
@@ -178,7 +178,7 @@ body {
 
 .send {
   display: flex;
-  margin-top: 15px;
+  margin-top: 60px;
 }
 
 .input {
@@ -194,7 +194,7 @@ body {
 .button-send {
   align-self: center;
   position: absolute;
-  right: 1.3rem;
+  right: 2.4rem;
 }
 
 .text-container {
