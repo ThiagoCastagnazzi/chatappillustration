@@ -47,7 +47,7 @@ body {
 
 .phone {
   width: 300px;
-  height: 580px;
+  height: 550px;
   background: hsl(0, 0%, 100%);
   border-radius: 30px;
   display: flex;
@@ -178,7 +178,7 @@ body {
 
 .send {
   display: flex;
-  margin-top: 60px;
+  margin-top: 30px;
 }
 
 .input {
