@@ -193,9 +193,9 @@ body {
 }
 
 .text-container {
-  max-width: 40ch;
+  max-width: 45ch;
   align-self: center;
-  padding-left: 120px;
+  padding-left: 50px;
 }
 
 .text-h1 {
@@ -217,7 +217,7 @@ body {
 
 #content {
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 2fr 3fr;
 }
 
 @media (max-width: 750px) {
