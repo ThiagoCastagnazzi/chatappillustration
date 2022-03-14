@@ -55,6 +55,7 @@ body {
   box-shadow: 0 0 1em rgba(0, 0, 0, 0.3);
   z-index: 9;
   place-self: center;
+  margin: 1rem;
 }
 
 .screen {
@@ -211,9 +212,6 @@ body {
 .text-p {
   font-size: 1.2rem;
   color: hsl(270, 7%, 64%);
-}
-
-@media (max-width: 750px) {
 }
 
 @media (max-width: 750px) {
