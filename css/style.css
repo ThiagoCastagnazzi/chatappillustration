@@ -247,6 +247,7 @@ body {
   .text-container {
     text-align: center;
     z-index: 9;
+    padding-bottom: 20px;
   }
 
   .background2 {
