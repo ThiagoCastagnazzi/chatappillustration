@@ -235,6 +235,11 @@ body {
     gap: 30px;
   }
 
+  .background1 {
+    width: 350px;
+    height: 540px;
+  }
+
   .phone {
     margin-left: 0px;
   }
