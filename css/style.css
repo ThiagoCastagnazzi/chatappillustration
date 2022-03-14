@@ -15,7 +15,7 @@ body {
 }
 
 .background1 {
-  width: 375px;
+  width: 350px;
   height: 95vh;
   background: rgb(162, 0, 255);
   background: linear-gradient(
@@ -47,8 +47,8 @@ body {
 }
 
 .phone {
-  width: 250px;
-  height: 520px;
+  width: 260px;
+  height: 530px;
   background: hsl(0, 0%, 100%);
   border-radius: 30px;
   display: flex;
@@ -211,7 +211,7 @@ body {
 .button-send {
   position: absolute;
   bottom: 20px;
-  right: 20px;
+  right: 30px;
 }
 
 #content {
