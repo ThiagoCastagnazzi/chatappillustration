@@ -15,7 +15,7 @@ body {
 }
 
 .background1 {
-  width: 350px;
+  width: 375px;
   height: 95vh;
   background: rgb(162, 0, 255);
   background: linear-gradient(
@@ -180,7 +180,7 @@ body {
 .send {
   display: flex;
   align-self: center;
-  padding: 13px 0 0 20px;
+  padding: 13px 20px;
   position: relative;
 }
 
@@ -210,7 +210,7 @@ body {
 
 .button-send {
   position: absolute;
-  bottom: 7px;
+  bottom: 20px;
   right: 20px;
 }
 
